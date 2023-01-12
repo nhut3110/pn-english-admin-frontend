@@ -12,11 +12,12 @@ input {
 }
 
 .container {
-  /* position: absolute; */
-  width: 100%;
+  position: absolute;
+  width: 1520px;
   background-color: #fff;
-  min-height: 100vh;
+  height: 950px;
   overflow: hidden;
+  z-index: 99;
 }
 
 .forms-container {
